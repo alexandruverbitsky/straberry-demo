@@ -6,9 +6,9 @@ This is a sample project that demonstrates a CRUD operation GraphQL API using Fa
 
 1. Clone the repository:
 ```
-git clone https://github.com/alexandruverbitsky/GraphQL_FastAP.git
+git clone https://github.com/alexandruverbitsky/straberry-demo.git
 
-cd GraphQL_FastAPI
+cd straberry-demo
 ```
 
 2. Create and activate a virtual environment:
@@ -50,7 +50,7 @@ To create a new user, send a GraphQL mutation request:
 
 ```graphql
 mutation {
-  createUser(name: "Shikha Pandey") {
+  createUser(name: "John Smith") {
     id
     name
   }
@@ -60,7 +60,7 @@ mutation {
 To update a user, send a GraphQL mutation request:
 ```
 mutation {
-  updateUser(id: 1, name: "Kritika Pandey") {
+  updateUser(id: 1, name: "John Cook") {
     id
     name
   }
